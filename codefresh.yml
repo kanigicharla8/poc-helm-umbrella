@@ -1,0 +1,13 @@
+version: '1.0'
+steps:
+
+  DeployUmbreallHelmChart:
+    title: Deploying Umbrella Helm Chart
+    image: codefresh/cfstep-helm:2.9.1
+    environment:
+      - CHART_REF=/.
+      - RELEASE_NAME=umbrella-poc
+      - KUBE_CONTEXT=${{WA_EKS_CLUSTER_NAME}}
+      - VALUE_image_repository=${{WA_DOCKER_REPO_URL}}
+      - VALUE_image_tag=master
+      - VALUE_image_pullSecrets=${{WA_IMAGE_PULLSECRETS}}
