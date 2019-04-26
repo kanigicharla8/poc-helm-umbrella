@@ -1,7 +1,7 @@
 dependencies:
   - name: helloworld-wawa
     version: 0.1.0
-    repository: @cf-helm-default
+    repository: "cm://h.cfcr.io/guptakanigicharla/default/"
   - name: springboot-helloworld
     version: 0.1.0
-    repository: @cf-helm-default
+    repository: "cm://h.cfcr.io/guptakanigicharla/default/"
