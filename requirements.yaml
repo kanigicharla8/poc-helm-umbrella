@@ -1,7 +1,7 @@
 dependencies:
   - name: helloworld-wawa
-    version: 1.1.1
-    repository: "cm://h.cfcr.io/wawa/default/"
+    version: 0.1.0
+    repository: "cm://h.cfcr.io/wawa/default"
   - name: springboot-helloworld
     version: 0.1.0
-    repository: "cm://h.cfcr.io/wawa/default/"
+    repository: "cm://h.cfcr.io/wawa/default"
